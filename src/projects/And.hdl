@@ -1,1 +1,9 @@
-int(main)
+CHIP And {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    Nand(a=a, b=b, out=nand);
+    Not(in=nand, out=out);
+    // Put your code here:
+}
